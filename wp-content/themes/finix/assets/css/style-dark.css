@@ -1,0 +1,103 @@
+body {background: #020203;}
+.page-header {background: #0f0f10;}
+.site-header,
+#site-header.sticky {background: #161616;}
+.site-header .header-cart-btn a,
+.site-header .header-search .search-btn {color: #e5e5e5;}
+.site-header .header-sidemenu span {background: #e5e5e5;}
+.single-team .team-detail-info {color: #e5e5e5;}
+
+/*========================================*/
+/* Background */
+/*========================================*/
+.site-content blockquote,
+.finix-profile-cover,
+.sidebar .widget,
+.single-team .team-detail-info,
+.single-post .recent-post .latest-post .post-content {background: #0F0F10;}
+.team-detail-info .contact-info .contact-btn a {background: #ffffff; color: #323232;}
+
+/*========================================*/
+/* Border - Color */
+/*========================================*/
+.widget.widget_tag_cloud ul li a,
+.widget.widget_tag_cloud .wp-block-tag-cloud a,
+.widget_product_tag_cloud .tagcloud a,
+.pagination li a,
+.pagination li span,
+.skill.skill-2 .skill-bar,
+article.post .entry-tags .tags-inner .tags-item,
+.comments-area .comment-details .reply a,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {border-color: rgba(255,255,255,0.1);}
+
+article.post .blog-content .entry-share-info {border-top-color: rgba(255,255,255,0.1); border-bottom-color: rgba(255,255,255,0.1);}
+
+.single-product div.product .summary .product_meta,
+.woocommerce-checkout #order_review #payment .place-order {border-top-color: rgba(255,255,255,0.1);}
+
+.widget_recent_post ul.recent-post-list li,
+.comments-area .comment-details,
+.woocommerce .woocommerce-layout,
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs:before,
+.woocommerce-cart table.shop_table td,
+.woocommerce-checkout .woocommerce-checkout table.shop_table td {border-bottom-color: rgba(255,255,255,0.1);}
+
+/*========================================*/
+/* Sidemenu */
+/*========================================*/
+.sidemenu-main .sidemenu {background: #0F0F10;}
+
+/*========================================*/
+/* Infobox */
+/*========================================*/
+.feature-box.shadow-enable,
+.feature-box.border-hover,
+.feature-box.style-shadow {background: #0F0F10;}
+
+/*========================================*/
+/* Skill */
+/*========================================*/
+.skill .progress-bar .progress-value {color: #ffffff;}
+
+/*========================================*/
+/* Blog */
+/*========================================*/
+.post-meta ul li a,
+.widget_testimonial .author-details .author-position
+.comments-area .comment-details .author-info .comment-meta a {color: #e5e5e5;}
+article.post .entry-tags .tags-inner .tags-item:hover {background: #ffffff; border-color: #ffffff; color: #212121;}
+
+/* Leave a Reply Form */
+.comment-respond .comment-form .comment-form-author input,
+.comment-respond .comment-form .comment-form-email input,
+.comment-respond .comment-form .comment-form-url input,
+.comment-respond .comment-form .comment-form-comment textarea,
+.woocommerce-checkout .woocommerce-billing-fields .form-row .input-text,
+.woocommerce-checkout .woocommerce-additional-fields .form-row .input-text,
+.woocommerce-checkout .woocommerce-billing-fields .form-row .select2-container .select2-selection--single {background: none; color: #ffffff; border-color: rgba(255,255,255,0.1);}
+
+/*========================================*/
+/* Shop */
+/*========================================*/
+.single-product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,
+.single-product div.product .summary .product_meta .sku,
+.single-product div.product .summary .product_meta .posted_in a,
+.single-product div.product .summary .product_meta .tagged_as a {color: #e5e5e5;}
+
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs li a {background: #0F0F10;}
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs li.active a {color: #ffffff; background: #0F0F10;}
+
+.woocommerce-cart table.shop_table th,
+.woocommerce-checkout .site-content #order_review {background: #0F0F10;}
+.woocommerce-checkout .woocommerce-checkout table.shop_table th {background: #1e1d22;}
+.woocommerce-cart table.shop_table .product-name a {color: #e5e5e5;}
+.woocommerce-checkout .woocommerce-checkout .cart-subtotal .amount {color: #e5e5e5;}
+
+.woocommerce_status_bar .status-steps-item span.num {background: #ffffff; color: #212121;}
+.woocommerce-checkout #order_review #payment .payment_methods .woocommerce-notice.woocommerce-info {color: #31708f;}
+
+/*========================================*/
+/* Mobile Bottom Icons */
+/*========================================*/
+.bottom-navbar .navbar-inner .navbar-icon i {color: #323232;}

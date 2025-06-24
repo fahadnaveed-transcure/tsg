@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   Lost Password ‹ The Services Group — WordPress
+  </title>
+  <meta content="noindex, follow" name="robots"/>
+  <link href="http://localhost/wp-includes/css/dashicons.min.css" id="dashicons-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://localhost/wp-includes/css/buttons.min.css" id="buttons-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://localhost/wp-admin/css/forms.min.css" id="forms-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://localhost/wp-admin/css/l10n.min.css" id="l10n-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://localhost/wp-admin/css/login.min.css" id="login-css" media="all" rel="stylesheet" type="text/css"/>
+  <meta content="strict-origin-when-cross-origin" name="referrer"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+ </head>
+ <body class="login no-js login-action-lostpassword wp-core-ui locale-en-us">
+  <script type="text/javascript">
+   /* <![CDATA[ */
+document.body.className = document.body.className.replace('no-js','js');
+/* ]]> */
+  </script>
+  <h1 class="screen-reader-text">
+   Lost Password
+  </h1>
+  <div id="login">
+   <h1 class="wp-login-logo" role="presentation">
+    <a href="https://wordpress.org/">
+     Powered by WordPress
+    </a>
+   </h1>
+   <div class="notice notice-info message">
+    <p>
+     Please enter your username or email address. You will receive an email message with instructions on how to reset your password.
+    </p>
+   </div>
+   <form action="http://localhost/wp-login.php?action=lostpassword" id="lostpasswordform" method="post" name="lostpasswordform">
+    <p>
+     <label for="user_login">
+      Username or Email Address
+     </label>
+     <input autocapitalize="off" autocomplete="username" class="input" id="user_login" name="user_login" required="required" size="20" type="text" value=""/>
+    </p>
+    <input name="redirect_to" type="hidden" value=""/>
+    <p class="submit">
+     <input class="button button-primary button-large" id="wp-submit" name="wp-submit" type="submit" value="Get New Password"/>
+    </p>
+   </form>
+   <p id="nav">
+    <a class="wp-login-log-in" href="http://localhost/wp-login.php">
+     Log in
+    </a>
+   </p>
+   <p id="backtoblog">
+    <a href="http://localhost/">
+     ← Go to The Services Group
+    </a>
+   </p>
+  </div>
+  <script type="text/javascript">
+   /* <![CDATA[ */
+
+		try{document.getElementById('user_login').focus();}catch(e){}
+		if(typeof wpOnload==='function')wpOnload();
+		
+/* ]]> */
+  </script>
+ </body>
+</html>
